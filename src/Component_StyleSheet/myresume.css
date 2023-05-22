@@ -1,0 +1,31 @@
+.myresume_container {
+  width: 80%;
+  margin: 50px auto;
+}
+.download_btn {
+  width: 100%;
+  text-align: center;
+}
+.download_btn button {
+  padding: 8px 12px;
+  background: #4b2c69;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.download_btn button:hover {
+  background: #60378a;
+}
+.download_btn button a {
+  font-size: 20px;
+  color: #ffffff;
+}
+.resumeImageConatiner {
+  width: 100%;
+  min-height: 50vh;
+  margin: 35px 0;
+}
+.resumeImageConatiner .resumeImage {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  background: #0a0416;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 5vw;
+}
+
+.footer_text1,
+.footer_text2,
+.footerGitLink .footer_text3 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer_text1 {
+  width: 43%;
+}
+.footer_text2 {
+  width: 30%;
+  text-align: start;
+}
+.footerGitLink {
+  width: 30%;
+  text-align: center;
+}

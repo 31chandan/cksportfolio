@@ -1,0 +1,38 @@
+.introduction_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.introduction_container .left {
+  width: 65%;
+}
+.introduction_title {
+  text-align: end;
+}
+.introduction_title,
+.introduction_para {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.introduction_title span,
+.introduction_para span {
+  color: #ce5ff8;
+}
+.introduction_para {
+  font-size: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+}
+.introduction_container .right {
+  width: 35%;
+  text-align: center;
+}
+.introduction_container .right .MyImage {
+  width: 70%;
+  border-radius: 50%;
+  border: 0.5px solid #ffffff;
+}
